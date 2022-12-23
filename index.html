@@ -112,7 +112,15 @@ https://templatemo.com/tm-578-first-portfolio
 
                         <div class="col-lg-5 col-12 position-relative">
                             <div class="hero-image-wrap"></div>
-                            <img src="images/Sathvik.jpg" class="hero-image img-fluid" alt="">
+                            <img src="images/Sathvik_B&W.png" class="hero-image img-fluid" alt="">
+                            <script>
+                                document.getElementsByClassName("hero-image")[0].addEventListener("mouseover",function(){
+                                    document.getElementsByClassName("hero-image")[0].setAttribute("src","images/Sathvik.jpg");
+                                })
+                                document.getElementsByClassName("hero-image")[0].addEventListener("mouseout",function(){
+                                    document.getElementsByClassName("hero-image")[0].setAttribute("src","images/Sathvik_B&W.png");
+                                })
+                            </script>
                         </div>
 
                     </div>
